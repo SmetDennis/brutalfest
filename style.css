@@ -1,0 +1,182 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	background: #e8e4d9;
+	color: #0a0a0a;
+	font-family: monospace,;
+	margin: 0;
+
+	line-height: 1.5;
+}
+
+h1 {
+	font-size: 6rem;
+	text-transform: uppercase;
+	font-weight: 1000;
+	letter-spacing: 0.1rem;
+	line-height: 1;
+
+	margin: 2rem;
+	padding: 1rem;
+	border: 3px solid #0a0a0a;
+	box-shadow: 8px 8px 0 #0a0a0a;
+}
+
+h2 {
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	line-height: 1.2;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+p {
+	margin: 1rem;
+	padding: 1rem;
+}
+
+nav {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	margin: 2rem;
+	padding: 1rem;
+	border: 3px solid #0a0a0a;
+}
+
+nav a {
+	color: #0a0a0a;
+	background: #ff3b00;
+	text-decoration: none;
+	padding: 1rem;
+	border: 2px solid #0a0a0a;
+}
+
+nav a:hover {
+	background: #0a0a0a;
+	color: #fff;
+}
+
+main {
+	width: 90%;
+	max-width: 65rem;
+
+	margin: 2rem auto;
+}
+
+section {
+	border: 3px solid #0a0a0a;
+	margin: 2rem 0;
+	padding: 2rem;
+}
+
+#Line-up {
+	background: #ff3b00;
+	
+}
+
+#Tickets {
+	background: #0047ff;
+	color: #fff;
+	
+}
+
+#Info {
+	background: #e8e4d9;
+
+}
+
+ol, ul {
+	margin: 1rem;
+	padding: 1rem 2rem;
+}
+
+li {
+	margin: 0.5rem;
+	padding: 0.5rem;
+}
+
+
+
+table {
+	width: 100%;
+	margin:  1rem 0;
+	padding: 1rem;
+	border:   3px solid #0a0a0a;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 1rem;
+	border: 2px solid #0a0a0a;
+}
+
+caption {
+	text-transform: uppercase;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+button {
+	background: #ff3b00;
+	color: #0a0a0a;
+	border: 3px solid #0a0a0a;
+	
+	 padding: 1rem 2rem;
+	margin: 1rem;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+button:hover {
+	background: #0a0a0a;
+	color: #fff;
+} 
+
+
+figure   {
+	border: 3px solid #0a0a0a;
+	margin: 2rem 0;
+	padding: 1rem;
+	box-shadow: 8px 8px 0 #0a0a0a;
+}
+
+
+
+figure img {
+	width: 100%;
+	height: auto;
+	border: 2px solid #0a0a0a;
+}
+
+figcaption {
+	margin: 1rem;
+	padding: 1rem;
+}
+
+blockquote {
+	 background: #0047ff;
+	color: #fff;
+	 border: 3px solid #0a0a0a;
+	  margin: 2rem 0;
+	padding: 2rem;
+	box-shadow: 8px 8px 0 #0a0a0a;
+}
+
+iframe {
+	width: 90%;
+	height: 12rem;
+	margin: 2rem 5%;
+	border: 3px solid #0a0a0a;
+}
+
+footer {
+	background: #0a0a0a;
+	color: #fff;
+	padding: 2rem;
+	margin-top: 2rem;
+	text-align: center;
+	text-transform: uppercase;
+}
